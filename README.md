@@ -1,4 +1,4 @@
-# Python Script To Send Multiple Emails  
+## Python Script To Send Multiple Emails  
  
 I had the idea to create this to help my wife send the same email to multiple recipients when she was running a film festival.  
 It is necessary to import *smtplib*, the Python Secure Mail Transfer Protocol library, to create a server object and establish a secure connection.
