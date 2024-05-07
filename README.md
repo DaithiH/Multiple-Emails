@@ -9,7 +9,7 @@ server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
 ```
 A server object is created, and secure SSL/TLS connection established.
 I was using gmail to send the mails, so the connection is through port 465, this will be different for other services. Also, permission will need to be given to allow access for less secure third party apps in the account settings.
-Extended Hello, *ehlo()* method called to identify client, *i.e.* the sender, and request the server capabilities.  
+Extended Hello, *ehlo()*, method called to identify client, *i.e.* the sender, and request the server capabilities.  
 Authenticate the SMTP server with the login() method, and user credentials.   
 
 The list of recipient names and email addresses are kept in an Excel file. The *Pandas* library is imported to read this using the *read_excel()* method. The columns are titled 'Name' and 'Email', but obviously these can be changed.
